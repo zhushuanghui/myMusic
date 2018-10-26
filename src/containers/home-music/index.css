@@ -1,0 +1,127 @@
+.home-music {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+a {
+    color: #fff;
+}
+
+.home-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    background: red;
+    font-size: 14px;
+    color: #fff;
+}
+.home-header > a {
+    /* flex-grow: 1; */
+}
+.bold {
+    padding-bottom: 5px;
+}
+.bold:hover {
+    /* border-bottom: 1px solid #fff;
+    font-weight: bolder; */
+}
+
+.home-content {
+    height: calc(100vh - 150px);
+    overflow: auto;
+
+}
+
+.carousel-bg{
+    float: left;
+    width: 100%;
+    height: 100px;
+    /* padding: 0 5px; */
+    background: red;
+}
+.ant-carousel .slick-slide {
+    /* margin: 0 5px;
+    width:calc(100vw - 10px); */
+    text-align: center;
+    height: 140px;
+    border-radius: 5px;
+    line-height: 160px;
+    /* background: #364d79; */
+    overflow: hidden;
+}
+
+.ant-carousel .slick-dots li button{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #ccc;
+    margin: 0 5px;
+}
+.ant-carousel .slick-dots li.slick-active button{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background:red;
+}
+.img{
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.recommend .four-list{
+    margin-top: 20px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    border-bottom: 1px solid #ccc;
+}
+.four-list .iconfont{
+    background: red;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    /* padding-top: 100%; */
+    /* border-radius: 50%; */
+}
+
+.rd-music{
+    margin-top: 15px;
+}
+.rd-music>p{
+    font-size: 14px;
+    font-weight: 900;
+}
+.rd-sl{
+display: flex;
+flex-wrap:wrap;
+justify-content: space-between;
+justify-content: center;
+}
+.rd-s{
+    position: relative;
+    width: 33%;
+    box-sizing: border-box;
+    padding: 0 3px;
+}
+.rd-count{
+   position: absolute;
+   right: 5px;
+   top: 0;
+   font-size: 9px;
+}
+.rd-name{
+    height: 40px;
+    padding: 5px;
+    line-height: 20px;
+    overflow: hidden;
+    color: black;
+    font-size: 12px;
+}
+

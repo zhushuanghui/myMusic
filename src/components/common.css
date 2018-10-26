@@ -1,0 +1,73 @@
+.app {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.header {
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconfont {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.center {
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+}
+.c-icon {
+    margin: 0 20px;
+    color: #cfcfcf;
+}
+.container {
+    width: 100%;
+    overflow: auto;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot-song {
+    flex-grow: 1;
+}
+
+.footer .iconfont {
+    color: #ccc;
+    width: 10%;
+    font-size: 20px;
+}
+
+.pop-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 0; */
+    height: 100%;
+    transition: width 5s;
+    -webkit-transition: width 5s;
+    background: #000;
+    overflow: hidden;
+    z-index: 99;
+}
+.pop-trans{
+    width: 80%;
+}
