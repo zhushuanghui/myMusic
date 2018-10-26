@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-
-class Pop extends Component {
+//import {} form 'react-motion';
+ class Pop extends Component {
     constructor() {
         super()
 

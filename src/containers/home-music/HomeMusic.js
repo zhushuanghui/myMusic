@@ -7,11 +7,10 @@ import "./index.css";
 import {connect} from 'react-redux';
 import actions from '../../store/actions';
 
- //@connect(state => ({...state.homeReducer}), actions)
+@connect(state => ({...state.homeReducer}), actions)
 class HomeMusic extends Component {
     constructor() {
         super()
-
     }
     render() {
         const activeStyle = {
@@ -48,4 +47,4 @@ class HomeMusic extends Component {
         )
     }
 }
- export default HomeMusic;
+export default HomeMusic;
